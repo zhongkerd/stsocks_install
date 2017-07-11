@@ -14,6 +14,8 @@
 
 # Author: Teddysun <i@teddysun.com>
 
+ulimit -n 65535
+
 if [ -f /usr/bin/ssserver ]; then
     BIN=/usr/bin/ssserver
 elif [ -f /usr/local/bin/ssserver ]; then
